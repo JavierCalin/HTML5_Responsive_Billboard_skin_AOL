@@ -1,0 +1,37 @@
+/************************
+CREATIVE CONTENT STYLES
+************************/
+#leave-behind {
+  height: 100%;
+  position:absolute;
+  background-color: #FFFFFF;
+  width: 100%;
+  text-align: center;
+}
+#logo{
+  background-image:url(../images/logo.png);
+  background-position: 7px 7px;
+  background-repeat:no-repeat;
+  height: 40px;
+  width: 210px;
+}
+.chtext {
+  font-size: 11px;
+  position: relative;
+  top: 5px;
+  left: 7px;
+  width: 35%;
+  text-align: left;
+}
+
+#expand-button {
+  height: 31px;
+  width: 88px;
+  background-image:url(../images/leaveBehind.png);
+  background-repeat:no-repeat;
+  position: absolute;
+  cursor: pointer;
+  right: 5px;
+  top: 23px;
+  
+}

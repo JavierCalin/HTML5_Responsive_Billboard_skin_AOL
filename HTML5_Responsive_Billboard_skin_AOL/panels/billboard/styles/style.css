@@ -1,0 +1,90 @@
+/************ 
+TAG STYLES
+ ************/
+html, body {
+  height: 100%;
+}
+
+/*******************
+CREATIVE STYLES
+*******************/
+#billboard {
+  height: 100%;
+  position: absolute;
+  width: 100%;  
+}
+
+#logo{
+  background-image:url(../images/logo.png);
+  background-position: 7px 7px;
+  background-repeat:no-repeat;
+  height: 75px;
+  width: 210px;
+}
+.chtext {
+  font-size: 13px;
+  position: relative;
+  top: 0px;
+  left: 7px;
+  width: 35%;
+}
+
+#column {
+  height: 100%;
+  width: 100%;
+  background-color: #9400D3;
+}
+
+#column1 {
+  height: 100%;
+  width: 100%;
+  background-color: #9400D3;
+}
+
+#column2 {
+  height: 100%;
+  width: 100%;
+  background-color: #8FBC8F;
+}
+
+#column3 {
+  height: 100%;
+  width: 100%;
+  background-color: #B0E0E6;
+}
+
+
+#close-button {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+
+.buttons {
+  position: absolute;
+  bottom: 2%;
+  right: 1%;
+}
+
+#expand-button {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+.label{
+  font-size: 14px;
+  position: absolute;
+  margin-top: 50px;
+}
+
+.video-container {
+  height: 60%;
+  position: absolute;
+  width: 28%;
+}
+
+video {
+  height: 100%;
+  width: 100%;
+}

@@ -1,0 +1,51 @@
+/************ 
+TAG STYLES
+ ************/
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/************************
+CREATIVE CONTENT STYLES
+************************/
+button {
+  background-color: #0068FF;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 12px;
+  height: 26px;
+  outline: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  width: 108px;
+}
+
+button:hover, button:active {
+  color: #0d2a4d;
+}
+
+button:active {
+}
+
+.centered {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.ad-container {
+  border: 1px solid black;
+  box-sizing: border-box; 
+}
